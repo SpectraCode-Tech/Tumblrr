@@ -1,0 +1,28 @@
+# dependencies
+node_modules
+
+# build output
+dist
+dev-dist
+.vite
+
+# environment files (keep the example)
+.env
+.env.*
+!.env.example
+
+# logs and tooling
+*.log
+npm-debug.log*
+.eslintcache
+coverage
+
+# local overrides
+*.local
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
